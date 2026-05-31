@@ -182,16 +182,6 @@ Se você suspeitar que sua key foi exposta ou quiser renovar por segurança:
 3. Clique em **Create Key** para gerar uma nova
 4. No Zed, vá em **Settings → AI Settings** e substitua pela nova key
 
-#### 🗑️ Como remover sua Key do Zed
-
-Caso queira desconectar o Zed do OpenRouter:
-
-1. No Zed, abra as configurações com `CTRL + ,` (Windows/Linux) ou `CMD + ,` (macOS)
-2. Vá em **AI Settings**
-3. Apague o campo da API Key e salve
-
-> 💡 A key fica salva apenas nas **configurações locais do Zed**, nunca nos arquivos do projeto — então subir o repositório para o GitHub não expõe sua chave.
-
 ---
 
 ### 3. Node.js (via NVM)
@@ -258,7 +248,19 @@ zed .
 
 No Zed, pressione `CTRL + ALT + J`, clique em `+` e selecione **Zed Agent**.
 
-### 5. Inicialize o sistema
+### 5. Configure sua key do OpenRouter no Zed
+
+Antes de iniciar, você precisa conectar o Zed ao OpenRouter:
+
+1. No Zed, pressione `ALT + SHIFT + C` para abrir o **Agent Panel**
+2. Clique em **Settings** dentro do painel
+3. Cole sua key do OpenRouter no campo indicado
+
+> ⚠️ Nunca compartilhe sua API Key publicamente — ela dá acesso à sua conta e pode gerar custos.
+>
+> 🤡 E não, a minha key não vai estar aqui. Tentou, né? Vai criar a sua no [openrouter.ai](https://openrouter.ai) — é rapidinho, prometo que não dói.
+
+### 6. Inicialize o sistema
 
 Digite o comando abaixo e pressione Enter:
 
