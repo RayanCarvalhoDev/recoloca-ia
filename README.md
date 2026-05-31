@@ -253,7 +253,7 @@ No Zed, pressione `CTRL + ALT + J`, clique em `+` e selecione **Zed Agent**.
 Antes de iniciar, você precisa conectar o Zed ao OpenRouter:
 
 1. No Zed, pressione `ALT + SHIFT + C` para abrir o **Agent Panel**
-2. Clique em **Settings** dentro do painel
+2. Clique em **OpenRouter** dentro do painel
 3. Cole sua key do OpenRouter no campo indicado
 
 > ⚠️ Nunca compartilhe sua API Key publicamente — ela dá acesso à sua conta e pode gerar custos.
