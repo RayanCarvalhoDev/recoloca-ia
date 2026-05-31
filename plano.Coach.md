@@ -5,7 +5,7 @@ Implementar o agente Coach para realizar simulações de entrevistas de emprego 
 
 ## Pré-requisitos
 1. Firecrawl instalado e configurado com `FIRECRAWL_API_KEY` definida (para consultas de técnicas de entrevistas, se necessário)
-2. Agentes Scout e Curator já implementados e funcionais (conforme `plano-aula-2.md` e `plano-aula-3.md`)
+2. Agentes Scout e Curator já implementados e funcionais (conforme `plano-scout.md` e `plano-Curator.md`)
 3. Arquivos de dados populados: `data/user-profile.md`, `data/job-search-results.md`, `data/course-search-results.md`
 4. Ferramenta `spawn_agent` disponível no Maestro para disparar o Coach
 

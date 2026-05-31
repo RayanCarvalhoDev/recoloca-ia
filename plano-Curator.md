@@ -5,7 +5,7 @@ Implementar o agente Curator para busca de cursos que complementem as habilidade
 
 ## Pré-requisitos
 1. Firecrawl instalado e configurado com `FIRECRAWL_API_KEY` definida
-2. Agente Scout já implementado e funcional (conforme `plano-aula-2.md`)
+2. Agente Scout já implementado e funcional (conforme `plano-scout.md`)
 3. Arquivo `data/job-search-results.md` sendo gerado pelo Scout com as habilidades faltantes
 4. Arquivos `data/user-profile.md` e `data/personality-quiz.md` atualizados
 
@@ -118,7 +118,7 @@ Envelope de resposta com estado, resumo, dados (lista de cursos) e erros se houv
 5. Cenário: `data/job-search-results.md` vazio → Alerta ao usuário para executar o Scout primeiro
 
 ## Cronograma Sugerido (90 minutos)
-1. 00-10 min: Revisão do `plano.md`, `plano-aula-2.md` e estrutura existente
+1. 00-10 min: Revisão do `plano.md`, `plano-scout.md` e estrutura existente
 2. 10-35 min: Criação de `skills/course-search.md`
 3. 35-55 min: Criação de `personas/curator.md`
 4. 55-70 min: Integração do Curator com o Maestro (atualização do menu e handoff)

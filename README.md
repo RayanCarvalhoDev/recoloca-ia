@@ -111,9 +111,9 @@ Cada agente roda com sua própria **janela de contexto limpa**, o que garante re
 recoloca-AI/
 ├── AGENTS.md                    ← Ponto de entrada do sistema
 ├── plano.md                     ← Plano geral (Aula 1)
-├── plano-aula-2.md              ← Plano do Scout (Aula 2)
-├── plano-aula-3.md              ← Plano do Curator (Aula 3)
-├── plano-entrevistador.md       ← Plano do Coach (Aula 4)
+├── plano-scout.md               ← Plano do Scout (Aula 2)
+├── plano-Curator.md             ← Plano do Curator (Aula 3)
+├── plano.Coach.md               ← Plano do Coach (Aula 4)
 │
 ├── personas/
 │   ├── maestro.md               ← Persona do Maestro (orquestrador)
